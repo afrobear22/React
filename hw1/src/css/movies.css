@@ -13,3 +13,8 @@ h2 {
 h3 {
     color: yellow;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(72, 255, 0);
+}
