@@ -45,7 +45,7 @@ const listMovies = [{
 
 export function App() {
   return (
-    <div id="App">
+    <div id="app">
       <MovieList listOfMovies={listMovies} />
     </div>
   );
