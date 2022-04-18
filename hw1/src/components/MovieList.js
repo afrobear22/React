@@ -15,9 +15,9 @@ export const MovieList = ({ listOfMovies }) => {
                         <h3>Year: {movie.date}</h3>
                         <p>Genre: {movie.genre}</p>
                         <p>Plot: {movie.plot}</p>
-                        <a href={movie.imdbLink}>Check on IMDB</a>
+                        <a href={movie.imdbLink} target="_blank" rel="noreferrer">Check on IMDB</a>
                         <br />
-                        <img src={movie.imageUrl} alt={movie.name} width="200" height="250" />
+                        <img src={movie.imgUrl} alt={movie.name} width="300" height="450" />
                         <hr />
                     </div>
                 )
